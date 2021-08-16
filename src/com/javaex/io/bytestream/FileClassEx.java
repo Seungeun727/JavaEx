@@ -33,7 +33,6 @@ public class FileClassEx {
 		newFile.delete();
 		
 		printInfo(root);
-		
 	}
 	
 	private static void printInfo(File f) {

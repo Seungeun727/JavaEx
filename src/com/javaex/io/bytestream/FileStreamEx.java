@@ -38,6 +38,7 @@ public class FileStreamEx {
 			} catch (Exception e) {
 				
 			}
+			
 		}
 	}
 }
