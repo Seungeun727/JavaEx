@@ -1,0 +1,4 @@
+# .gitignore: 커밋하면 안되는 파일 목록
+/bin/
+.project
+.classpath
