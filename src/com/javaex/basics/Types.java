@@ -187,4 +187,3 @@ public class Types { // 클래스이름과 파일명 일치해야 함
 		v1 = v2 = v3 = 40 ; // int v1= v2 = v3= 30; error 발생
 	}
 }
-
