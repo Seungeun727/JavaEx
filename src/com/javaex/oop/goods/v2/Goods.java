@@ -31,3 +31,4 @@ public class Goods {
       System.out.println("상품가격" + price);
    }
 }
+

@@ -12,7 +12,7 @@ public class GoodsApp {
 		smartphone.setName("iPhone 12");
 		smartphone.setPrice(800000);
 		
-		//	출력 
+		//  출력
 		System.out.printf("%s, %d원%n", notebook.getName(),
 				notebook.getPrice());
 		System.out.printf("%s, %d원%n", smartphone.getName(),
