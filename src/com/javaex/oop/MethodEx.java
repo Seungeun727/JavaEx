@@ -46,7 +46,6 @@ public class MethodEx {
 		}
 		
 		return total;
-		
 	}
 	
 	// 입력 o, 출력 o
