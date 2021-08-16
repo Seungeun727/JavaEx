@@ -160,8 +160,5 @@ public class OperatorEx {
 	System.out.println(Double.isInfinite(4.0 / 0)); // Infinity인가?
 	System.out.println(Double.isNaN(0.0 / 0.0));
 	System.out.println("End of Code");
-	
-
 	}
-
 }
