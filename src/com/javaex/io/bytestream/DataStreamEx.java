@@ -20,6 +20,7 @@ public class DataStreamEx {
 		loadPrimitives();
 	}
 	
+	
 	private static void loadPrimitives() {
 		InputStream fis = null;  // 주스트림
 		DataInputStream dis = null;   // 보조스트림
