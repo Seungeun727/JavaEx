@@ -17,6 +17,5 @@ public class Animal {
 	}
 	public void walk() {
 		System.out.println(name + "is walkng... ");
-
 	}
 }

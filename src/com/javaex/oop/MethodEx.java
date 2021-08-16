@@ -73,5 +73,4 @@ public class MethodEx {
 		System.out.println("Hello, oop");
 		
 	}
-
 }
