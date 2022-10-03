@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Exm05 {
+public class Exam05 {
 	// 백준 15552 문제[꼭 다시 생각해보기]
 	// 문제 본문 내용: https://www.acmicpc.net/problem/15552
 	// 문제 예상 시간 초과로 https://limdotori.tistory.com/86 참고해서 풀었다.
