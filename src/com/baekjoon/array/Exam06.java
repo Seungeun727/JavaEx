@@ -8,7 +8,6 @@ public class Exam06 {
 	public static void main(String[] args) {
 		avgEx01();
 	}
-	// avgEx02()은 연속된 결과로 성공함
 	private static void avgEx01() {
 		Scanner scan = new Scanner(System.in);
         int c = scan.nextInt();
