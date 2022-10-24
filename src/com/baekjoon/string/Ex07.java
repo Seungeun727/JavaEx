@@ -4,11 +4,13 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.io.IOException;
+import java.util.Scanner;
 public class Ex07 {
 	// 백준 문제 2908 [문자열 상수 비교 큰 수 출력]
 	// 문제 본문 출처: https://www.acmicpc.net/problem/2908
 	public static void main(String[] args) {
-		practice01();
+//		practice01();
+		practice02();
 	}
 	
 	// 01: 실행 시간도 크고, 반복되는 부분이 크므로 다른 방법 찾아볼 것.
@@ -48,5 +50,20 @@ public class Ex07 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}	
+	}
+	// 02: 01의 실행시간은 2000ms, 02의 실행 시간: 204ms
+	private static void practice02() {
+		Scanner scan = new Scanner(System.in);
+		
+		String str = scan.nextLine();
+		StringBuffer sb = new StringBuffer(str);
+		String str2 = sb.reverse().toString();
+		String[] arr = str2.trim().split(" ");
+		
+		if(Integer.parseInt(arr[0]) < Integer.parseInt(arr[1])) {
+			System.out.print(Integer.parseInt(arr[1]));
+		} else {
+			System.out.print(Integer.parseInt(arr[0]));
+		}
 	}
 }
